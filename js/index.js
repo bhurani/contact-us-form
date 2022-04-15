@@ -16,7 +16,7 @@ form.onsubmit = e =>{
         phone = form.phone.value,
         website = form.website.value,
         message = form.message.value;
-
+  /*
   fetch('./php/index.php', {
     method: 'POST',
     body: JSON.stringify({name, email, phone, website, message}),
@@ -35,4 +35,5 @@ form.onsubmit = e =>{
     form.classList.remove('disable');
   })
   .catch(err => console.log(err));
+  */
 };
